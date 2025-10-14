@@ -1,0 +1,23 @@
+{
+  "PingFrequencyMs": 2000,
+  "MaxFailuresBeforeAlert": 30,
+  "MaxTimeoutMs": 100,
+  "SendRecoveryEmail": true,
+
+  "ToAddresses": ["12@example.com", "example@example.com"],
+  "FromAddress": {
+    "Email": "example@example.com",
+    "Password": "6serw3N4&7R2b"
+  },
+
+  "SmtpServer": "example.co.uk",
+  "SmtpPort": 587,
+  "UseStartTls": true,
+
+  "Devices": [
+    { "Name": "Example 1", "IP": "11.111.111.111" },
+    { "Name": "Example 2", "IP": "11.111.111.111" },
+    { "Name": "Example 3", "IP": "11.111.111.111" },
+    { "Name": "Example 4", "IP": "11.111.111.111" }
+  ]
+}
